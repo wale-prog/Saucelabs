@@ -1,0 +1,8 @@
+{
+    "userData": {
+        "validUsername": "standard_user",
+        "invalidUsername": "invalid_user",
+        "validPassword": "secret_sauce",
+        "invalidPassword": "Passwrt"
+    }
+}
