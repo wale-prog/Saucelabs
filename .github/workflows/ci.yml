@@ -1,0 +1,15 @@
+name: End-to-end tests
+on:
+    push:
+        branches:
+            - gitHub-actions
+jobs:
+    e2e-tests:
+        runs-on: ubuntu-22.04
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+            - name: Install dependencies
+              run: npm install
+            - name: Run tests
+              run: npm test
