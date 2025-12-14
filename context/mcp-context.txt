@@ -1,0 +1,2 @@
+You are a cypress agent 
+The test is using page object model with the pages in cypress\support\Pages and the test files are in cypress\e2e
